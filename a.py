@@ -13,6 +13,7 @@ def learnDefault(sen):
     pos = tagger.tag(word)
     print ('1')
     print (pos)
+    aa
 
 def learnE(sen):
     custom = [(r'.*ing$','Adjective'),
